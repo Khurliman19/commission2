@@ -29,7 +29,6 @@ func printProduct(p Product) {
 	fmt.Printf("Цена: %d сум\n", p.Price)
 	fmt.Printf("Рассрочка: %d месяцев\n", p.Months)
 	fmt.Printf("В месяц: %d сум\n", monthlyPayment(p))
-	fmt.Println("=====================================")
 }
 
 func main() {
